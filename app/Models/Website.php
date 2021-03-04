@@ -30,8 +30,7 @@ class Website extends Model
         $client = new Client();
 
         $response = $client -> request('POST',
-            'http://localhost:3030',
-            // 'http://eyadroid.ddns.net:3030',
+            env('CHECKER_URL'),
             [
                 'form_params' => [
                     "url" => $this->url
