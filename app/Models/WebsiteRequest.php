@@ -9,7 +9,7 @@ class WebsiteRequest extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["website_id", "is_success"];
+    protected $fillable = ["website_id", "available"];
 
 
     function website() {

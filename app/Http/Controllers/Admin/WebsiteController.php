@@ -33,7 +33,7 @@ class WebsiteController extends Controller
         ]);
 
         $name = $request->name;
-        $url = $request->name;
+        $url = $request->url;
 
         Website::create([
             "approved" => 1,
