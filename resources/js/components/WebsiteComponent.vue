@@ -3,7 +3,7 @@
     <li class="website-item" v-bind:class="(this.website.last_request == null || !this.website.last_request.available) ? 'unavailable' : 'available'">
         <div class="website-item-status">
             <div class="website-item-status-circle" ></div>
-            <span class="website-item-status-text">
+            <span class="website-item-status-text" v-if="this.website.last_request">
                 {{this.website.last_request.available ? "Available" : "Blocked"}}
             </span>
         </div>
