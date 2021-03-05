@@ -8,7 +8,7 @@
     <title>Sudan Blocked Sites Checker</title>
     <link href="/css/app.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="./icons/favicon.png">
+    <link rel="icon" href="/icons/favicon.png">
 </head>
 
 <body class="antialiased">

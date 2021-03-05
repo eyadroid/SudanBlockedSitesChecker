@@ -11312,6 +11312,10 @@ footer i {
     width: 90vw;
   }
 
+  .add-website-container .model-container {
+    width: 100%;
+  }
+
   .main-container-header .main-container-header-title h3 {
     font-size: 25px;
   }
